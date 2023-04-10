@@ -1,0 +1,62 @@
+body {
+  font-family: system-ui;
+  background: #f06d06;
+  color: white;
+  text-align: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.filtro {
+    margin-bottom: 20px;
+}
+
+.filtro label {
+    margin-right: 10px;
+}
+
+.filtro select {
+    padding: 5px;
+    border: none;
+    background-color: #f2f2f2;
+}
+
+.produtos {
+   
